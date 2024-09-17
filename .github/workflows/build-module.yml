@@ -17,7 +17,7 @@ jobs:
             target: ramips
             subtarget: mt7621
             vermagic: "bee655e7f41679981b85a223f3aba35b"
-          - tag: "23.05.3"
+          - tag: "23.05.4"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
