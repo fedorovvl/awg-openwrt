@@ -27,6 +27,11 @@ jobs:
             target: ath79
             subtarget: generic
             vermagic: "34a8cffa541c94af8232fe9af7a1f5ba"
+          - tag: "23.05.3"
+            pkgarch: arm_cortex-a7_neon-vfpv4
+            target: ipq40xx
+            subtarget: mikrotik
+            vermagic: "e8eb32a471b3e24e1342d28a33beae90"
 
     steps:
       - uses: actions/checkout@v4
